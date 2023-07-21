@@ -1,0 +1,106 @@
+/* Fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.hv-inp:hover {
+    color: #e8eadf;
+}
+
+#search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#search:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#lucky {
+    border: none;
+}
+
+#lucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#lucky:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.lupa {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.part-first{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.part-second{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+    padding: 0 20px;
+    color: #70757a;
+}
+
+.detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apply:hover{
+    text-decoration: underline;
+}
+
+.clr{
+    color: #70757a;
+}
